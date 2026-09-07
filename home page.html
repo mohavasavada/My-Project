@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MU University</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #64b5f6;
+            font-style: Bold;
+            color: #2196f3;
+            padding: 50px;
+        }
+        header, footer {
+            background-color: #0d47a1;
+            padding: 10px;
+            text-align: center;
+        }
+        center{
+            background-color: whitesmoke;
+            font-size: large;
+            font-style: italic;
+            font-style: underline;
+            color:#1976d2;
+            margin: 15px;
+            padding: 5px;
+        }
+        section{
+            brackground-color: whitesmoke;
+            padding: 15px;
+            color: #2196f3;
+            text-align: left;
+        }
+        form{
+            color: #0d47a1;
+            font-size: medium;
+            font-style: bold;
+            padding: 10px;
+            
+        }
+        nav {
+            margin: 10px 0;
+        }
+        section, article, aside {
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="C:\Users\admin\Downloads\WhatsApp Image 2025-08-15 at 8.15.49 PM.jpeg" align="left" padding="15px" height="80px" width="80px">
+        <h1>MU University</h1>
+    </header>
+    <!-- Navigation -->
+    <nav>
+        <a href="about us.html">About Us</a> | 
+        <a href="gallary.html">Gallary</a> |
+        <a href="faqs.html">FAQs</a>
+    </nav>
+    <center>
+       <marquee behavior="scroll" direction="left">
+           <p>Admission Open for 2025-26. Apply Now!</p>
+       </marquee>
+    </center>
+
+   <form action="submit_form.php" method="post">
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+
+  <label for="contact no.">Contact No:</label><br>
+  <input type="text" id="contact no." name="contact no."><br><br>
+   
+  <label for="email">E-Mail:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="dropdown">Courses:</label>
+     <select name="dropdown" id="dropdown">
+      <option value="option1">BCA</option>
+      <option value="option2">B.Com</option>
+      <option value="option3">BBA</option>
+      <option value="option3">MCA</option>
+      <option value="option3">MBA</option>
+      <option value="option3">M.Com</option>
+    </select><br><br>
+
+  <input type="submit" value="Submit"><br>
+</form>
+    <!-- Footer -->
+    <footer>
+        <section>
+            <div>
+                Address: <br>
+                MU university, <br>
+                Mumbai.
+            </div>
+        </section>
+        <section>
+            <div>
+                contact No:<br>
+                +91 9913515071
+            </div>
+        </section>
+        <p>&copy; 2025 MU University. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
